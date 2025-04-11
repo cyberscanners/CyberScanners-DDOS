@@ -7,3 +7,7 @@ $ pkg update && pkg upgrade
 $ pkg install git
 
 $ git clone https://github.com/cyberscanners/CyberScanners-DDOS.git
+
+$ cd CyberScanners-DDOS
+
+$ bash ddos-run.sh
