@@ -38,8 +38,6 @@ echo -e "${GREEN}                                > DEVALOPER CYBER BLACK LION! <
 
 termux-open-url https://chat.whatsapp.com/HlH3EfeFlar5Fy1YCieMKJ
 
-#!/data/data/com.termux/files/usr/bin/bash
-
 # Ask user for the target URL
 read -p "Enter the target URL (e.g., http://localhost:8080): " target
 
