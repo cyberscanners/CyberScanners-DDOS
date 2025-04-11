@@ -49,7 +49,7 @@ fi
 
 # Ask for number of threads (requests per loop)
 read -p "Enter number of threads (default is 500000): " threads
-threads=${threads:-500000}  # Use 50 if not specified
+threads=${threads:-500000}  # Use 500000 if not specified
 
 # Start the attack loop
 echo "Starting attack on $target... Press Ctrl+C to stop."
