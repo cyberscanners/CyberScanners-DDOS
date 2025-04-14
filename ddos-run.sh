@@ -38,6 +38,30 @@ echo -e "${GREEN}                                > DEVALOPER CYBER BLACK LION! <
 
 termux-open-url https://chat.whatsapp.com/HlH3EfeFlar5Fy1YCieMKJ
 
+#!/bin/bash
+
+# Set password
+PASSWORD="cyber2002"
+
+# Ask for password
+echo -n "Enter password: "
+read -s user_input
+echo ""
+
+# Check password
+if [ "$user_input" == "$PASSWORD" ]; then
+    echo "Access granted."
+    
+    # Place your tool code here
+    echo "Running your Termux tool..."
+    
+    # Example: echo "Hello from your tool!"
+    
+else
+    echo "Access denied. Incorrect password."
+    exit 1
+fi
+
 # Ask user for the target URL
 read -p "Enter the target URL (e.g., http://localhost:8080): " target
 
